@@ -505,13 +505,13 @@
 
         <form class="form" name="leave-your-contacts" autocomplete="off">
           <div class="input-svg-wrapper">
-            <label class="form-label" for="user-name">Name</label>
+            <label class="form-label" for="name">Name</label>
             <div class="input-svg-relative">
               <input
                 class="form-input"
-                id="user-name"
+                id="name"
                 type="text"
-                name="name"
+                name="user-name"
                 required
               />
               <svg width="18" height="24" class="input-icon">
@@ -550,24 +550,25 @@
             </div>
           </div>
           <div class="review-form-field-wrapper">
-            <label class="form-label" for="comment"> Comment </label>
+            <label class="form-label" for="user-comment"> Comment </label>
             <textarea
               class="review-form-field-message"
               name="user-comment"
               rows="5"
               placeholder="Text input"
-              id="comment"
+              id="user-comment"
             ></textarea>
           </div>
           <div class="review-form-checkbox-wrapper">
-            <label class="terms-conditions">
-              <input
-                class="terms-conditions-checkbox visually-hidden"
-                type="checkbox"
-                name="user_policy"
-                value="true"
-                required
-              />
+            <input
+              class="terms-conditions-checkbox visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              value="true"
+              required
+              id="user-privacy"
+            />
+            <label class="terms-conditions" for="user-privacy">
               <span class="input-checkbox-icon">
                 <svg width="10" height="8" class="checkbox-icon">
                   <use href="./images/icons.svg#icon-check"></use>
