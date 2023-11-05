@@ -614,6 +614,8 @@ input::placeholder {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
+  height: 100%;
+  width: 100%;
 }
 .icon-checkbox-active {
   fill: transparent;
