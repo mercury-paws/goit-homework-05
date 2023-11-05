@@ -590,7 +590,6 @@ input::placeholder {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 0;
-  visibility: hidden;
   pointer-events: none;
   z-index: 99999999;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -824,7 +823,7 @@ input:checked {
 .checkbox-icon {
   cursor: pointer;
 }
-.terms-conditions-checkbox:checked + .terms-conditions .checkbox-icon {
+.terms-conditions-checkbox:checked + .terms-conditions .input-checkbox-icon {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
